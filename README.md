@@ -11,6 +11,21 @@ Additionally, users were segmented by the number of views (1–5, 6–10, 11+), 
 
 ---
 
+## Hypotheses
+
+**Null Hypothesis (H0):**  
+- There is no difference in CTR between the Control and Test variants.  
+
+**Alternative Hypothesis (H1):**  
+- The Test variant improves CTR compared to the Control variant.  
+
+Segment-specific hypotheses:  
+
+- **H0_segment:** CTR is the same between Test and Control for each user segment (1–5, 6–10, 11+ views).  
+- **H1_segment:** CTR is higher for Test compared to Control in at least one segment.
+
+---
+
 ## Project Files
 | File | Description |
 |------|-------------|
@@ -86,7 +101,9 @@ Additionally, users were segmented by the number of views (1–5, 6–10, 11+), 
 ## Conclusion
 - The Test variant significantly increases CTR (~16%) across all segments.  
 - The effect is stable and statistically significant.  
-- No interaction effect was observed → Test performs equally well for all user groups.  
+- No interaction effect was observed → Test performs equally well for all user groups.
+- **Overall hypothesis confirmed:** the Test variant outperforms the Control variant.  
+- **Segment-specific hypotheses:** CTR improvement is significant in all segments, confirming the Test performs well regardless of user activity.   
 - **Recommendation:** rollout Test to 100% of users.
 
 ---
